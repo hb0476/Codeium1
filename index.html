@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Sports Arena</title>
+    <style>
+        /* CSS styles go here */
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Sports Arena</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Sports</a></li>
+                <li><a href="#">Timings</a></li>
+                <li><a href="#">Location</a></li>
+                <li><a href="#">Reviews</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="sports">
+            <h2>Sports</h2>
+            <div class="sports-list">
+                <button class="sport-button">Cricket</button>
+                <button class="sport-button">Football</button>
+                <button class="sport-button">Basketball</button>
+                <!-- Add more sports buttons here -->
+            </div>
+        </section>
+
+        <section id="timings">
+            <h2>Timings</h2>
+            <ul>
+                <li>Cricket: 10:00 AM - 7:00 PM</li>
+                <li>Football: 8:00 AM - 9:00 PM</li>
+                <li>Basketball: 9:00 AM - 6:00 PM</li>
+                <!-- Add more sports timings here -->
+            </ul>
+        </section>
+
+        <section id="pricing">
+            <h2>Pricing</h2>
+            <form id="pricing-form">
+                <label for="sport">Select Sport:</label>
+                <select id="sport" name="sport">
+                    <option value="cricket">Cricket</option>
+                    <option value="football">Football</option>
+                    <option value="basketball">Basketball</option>
+                    <!-- Add more sports options here -->
+                </select>
+
+                <label for="time">Select Time Slot:</label>
+                <select id="time" name="time">
+                    <option value="10:00-12:00">10:00 AM - 12:00 PM</option>
+                    <!-- Add more time slots here -->
+                </select>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2022 Sports Arena. All rights reserved.</p>
+    </footer>
+</body>
+</html>
